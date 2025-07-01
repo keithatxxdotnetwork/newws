@@ -74,7 +74,16 @@ const config = {
       }),
     ],
   ],
-
+  
+  plugins: [
+        [
+          require.resolve("@easyops-cn/docusaurus-search-local"),
+      ({
+        hashed: true,
+      }),
+    ],
+  ],
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -98,6 +107,10 @@ const config = {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            label: 'Contact',
+            to: '/contact',
           },
         ],
       },
