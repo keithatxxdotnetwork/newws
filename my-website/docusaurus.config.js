@@ -51,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/keithatxxdotnetwork/newws/blob/main/my-website/docs/',
+            'https://github.com/keithatxxdotnetwork/newws/blob/main/my-website/',
         },
         blog: {
           showReadingTime: true,
@@ -62,7 +62,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/keithatxxdotnetwork/newws/blob/main/my-website/blog/',
+            'https://github.com/keithatxxdotnetwork/newws/blob/main/my-website/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
